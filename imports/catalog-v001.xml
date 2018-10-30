@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1540922188808" name="file://localhost/Users/rwalls-iplant/ovt/imports/bfo_ovt_import_module.owl" uri="bfo_ovt_import_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540922188808" name="file://localhost/Users/rwalls-iplant/ovt/imports/iao_ovt_import_module.owl" uri="iao_ovt_import_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540922188808" name="file://localhost/Users/rwalls-iplant/ovt/imports/obi_ovt_import_module.owl" uri="obi_ovt_import_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540922188808" name="file://localhost/Users/rwalls-iplant/ovt/imports/pato_ovt_import_module.owl" uri="pato_ovt_import_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1540922188808" name="file://localhost/Users/rwalls-iplant/ovt/imports/ro_ovt_import_module.owl" uri="ro_ovt_import_module.owl"/>
+    </group>
+</catalog>
