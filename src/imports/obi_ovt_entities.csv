@@ -1,0 +1,4 @@
+ID,Method,Exclude,Related entities,Ignore
+OBI:'has_specified_input',single,,"ancestors, inverses, domains, ranges",
+OBI:'has_specified_output',single,,"ancestors, inverses, domains, ranges",
+BFO:'quality',,Y,,

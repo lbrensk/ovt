@@ -1,0 +1,12 @@
+Label,ID,Method,Exclude,Ignore
+participates in,RO:0000056,locality,,
+has participant,RO:0000057,locality,,
+has part,BFO:0000051,locality,,
+part of,BFO:0000050,locality,,
+starts with,RO:0002224,locality,,
+starts,RO:0002223,locality,,
+precedes,BFO:0000063,locality,,
+preceded by,BFO:0000062,locality,,
+quality of,RO:0000080,locality,,
+quality,BFO:0000019,locality,Y,
+depends on,RO:0002502,locality,,
