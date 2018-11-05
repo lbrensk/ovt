@@ -1,2 +1,5 @@
 ID,Method,Exclude,Related entities,Ignore
 PATO:'quality',single,,,
+PATO:'mass',locality,,,
+PATO:'length',locality,,,
+PATO:'sex',locality,,descendants,

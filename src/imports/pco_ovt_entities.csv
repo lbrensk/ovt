@@ -1,0 +1,4 @@
+label,ID,Exclude,Method,Related entities,Ignore
+organismal entity,PCO:0000031,,locality,ancestors,
+Vertebrata <Metazoa>,NCBITaxon:7742,,single,ancestors,
+root,NCBITaxon:1,yes,single,,

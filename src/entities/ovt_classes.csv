@@ -1,2 +1,4 @@
 ID,Type,Label,Parent,Text definition,Comments,Subclass of,Equivalent to,Disjoint with,Ignore
-OVT:0000001,Class,'vertebrate trait','quality',A trait of a vertebrate,This is a placeholder class.,,,,
+OVT:0000001,Class,'organismal trait observing process','observing process',An observing process that generates trait data about an organismal entity (organism, organism part, or collection of organisms).,replace with BCO term,,,,
+OVT:0000002,Class,'vertebrate trait','quality',A trait of a vertebrate,This is a placeholder class.,,,,
+
