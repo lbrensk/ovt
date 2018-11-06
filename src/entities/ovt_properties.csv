@@ -1,3 +1,3 @@
 ID,Type,Label,Parent,Text definition,Comments,Domain,Range,Characteristics,Ignore
-OVT:0010000,Object property,'quality measurement of','is about',Relates an {IAO:'measurement datum'} to a {PATO:'quality'}.,to move to RO or BCO,'measurement datum','quality',,
+OVT:0010000,Object property,'quality measurement of','is about',Relates an {IAO:'measurement datum'} to a {PATO:'quality'}.,to move to RO or BCO,'measurement datum',PATO:'quality',,
 OVT:0010001,Data property,'has unit',,string for the unit associated with an {IAO:'measurement datum'}.,Should be accompanied by an {IAO:'has value'} property.,'measurement datum',xsd:string,,
