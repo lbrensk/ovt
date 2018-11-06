@@ -1,5 +1,5 @@
 label,ID,Exclude,Method,Related entities,Ignore
 measurement datum,IAO:0000109,,single,ancestors,
 is about,IAO:0000136,,single,"ancestors, domains, ranges",
-has measurement value,IAO:0000004,,locality:,"domains, ranges",
+has measurement value,IAO:0000004,,locality,"domains, ranges",
 

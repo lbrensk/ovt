@@ -1,6 +1,6 @@
 ID,Method,Exclude,Related entities,Ignore
 PATO:'quality',single,,,
 PATO:'mass',locality,,,
-PATO:'radius',locality,,anscestors,
+PATO:'radius',locality,,ancestors,
 PATO:'diameter',locality,,,
 PATO:'sex',locality,,descendants,
