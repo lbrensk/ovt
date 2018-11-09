@@ -1,0 +1,1279 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:attributes="http://rs.tdwg.org/dwc/terms/attributes/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <Ontology rdf:about="https://raw.githubusercontent.com/futres/ovt/master/ontology/ovt-reasoned.owl">
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/ro_ovt_import_module.owl"/>
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/pco_ovt_import_module.owl"/>
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/obi_ovt_import_module.owl"/>
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/pato_ovt_import_module.owl"/>
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/bco_ovt_import_module.owl"/>
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/iao_ovt_import_module.owl"/>
+        <imports rdf:resource="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
+        <imports rdf:resource="https://raw.githubusercontent.com/futres/ovt/master/imports/bfo_ovt_import_module.owl"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000062">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000063 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000063">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002086"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000295 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000295">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0010000 -->
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OVT_0010000">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relates an IAO:&apos;measurement datum&apos; (IAO:0000109) to a PATO:&apos;quality&apos; (PATO:0000001).</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">to move to RO or BCO</rdfs:comment>
+        <rdfs:label xml:lang="en">quality measurement of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000080 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000080">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002013 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002013">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002014 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002014">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002015 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002015">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002019 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002019">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002352"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002022 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002022">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002405"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002412"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002023 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002023">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002335"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002024 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002024">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002336"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002025 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002025">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002334"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002087 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002087">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002090 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002090">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002180">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002211">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002212 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002212">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002334"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002213 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002213">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002334"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002216 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002216">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002217 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002217">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002218 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002218">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002223 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002223">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002224 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002224">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002222"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002233 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002233">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002264 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002264">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002304 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002304">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002305 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002305">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002331 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002331">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002218"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002333 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002333">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002334 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002334">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002335 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002335">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002305"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002336 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002336">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002304"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002352 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002352">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002404 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002404">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002418"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002405 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002405">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002411 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002411">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002427"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002412 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002412">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002418 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002418">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002501"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002427 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002427">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002501"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002436 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002436">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002434"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002447 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002447">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002436"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002448 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002448">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002436"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002559"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002559 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002559">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002506"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002566 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002566">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002506"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002578 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002578">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002334"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002405"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002596 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002596">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002608 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002608">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002595"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002629 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002629">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002022"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002336"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002630 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002630">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002022"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002335"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004046 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0004046">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002427"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004047 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0004047">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002427"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0010001 -->
+
+    <DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OVT_0010001">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string for the unit associated with an IAO:&apos;measurement datum&apos; (IAO:0000109).</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Should be accompanied by an {IAO:&apos;has value&apos;} property.</rdfs:comment>
+        <rdfs:label xml:lang="en">has unit</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000001 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A trait of a vertebrate.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Vertebrate traits will be defined by OBA. Adding high level classes here that are needed for sorting data for the ingest pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">vertebrate morphological trait</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000002 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vertebrate morphological trait that can be measured on a scale with units.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Data about this trait is recorded as a {scalar measurement datum}, with a numerical value and a unit. Examples include size and mass traits.</rdfs:comment>
+        <rdfs:label xml:lang="en">vertebrate scalar trait</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000003 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <someValuesFrom>
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                            </Restriction>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vertebrate scalar trait that is the size of some part of a vertebrate organism.&apos;</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Most size traits are lengths. Examples include total body length, snout-vent length, and femur length.</rdfs:comment>
+        <rdfs:label xml:lang="en">vertebrate size trait</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000004 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <someValuesFrom>
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                            </Restriction>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vertebrate scalar trait that is the mass of some part of a vertebrate organism.&apos;</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">May include total body mass or the mass of some part of the organism, dry or fresh.</rdfs:comment>
+        <rdfs:label xml:lang="en">vertebrate mass trait</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000005 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000003"/>
+        <rdfs:label xml:lang="en">vertebrate total body length</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000006 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000003"/>
+        <rdfs:label xml:lang="en">vertebrate standard body length</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000003"/>
+        <rdfs:label xml:lang="en">snout-vent length</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000008 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000003"/>
+        <rdfs:label xml:lang="en">head-body length</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000009 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000003"/>
+        <rdfs:label xml:lang="en">fork length</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0000010 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mass of the entire organism for a vertebrate, measured while alive or shortly after death.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vertebrate total body mass</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OVT_0001000 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BCO_0000003"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BCO_0000003"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000031"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                        <someValuesFrom>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/OVT_0010000"/>
+                                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An observing process that generates trait data about an organismal entity (organism, organism part, or collection of organisms).</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">replace with BCO term</rdfs:comment>
+        <rdfs:label xml:lang="en">organismal trait observing process</rdfs:label>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000103 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000121 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000123 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000124 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000224 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000224">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000226 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000227 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000228 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000229 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000230 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000230">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000410 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000410">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000420 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000420">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000421 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000421">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000423 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.4) https://github.com/owlcs/owlapi -->
+

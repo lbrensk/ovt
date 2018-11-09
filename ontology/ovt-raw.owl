@@ -122,7 +122,22 @@
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <someValuesFrom>
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                            </Restriction>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vertebrate scalar trait that is the size of some part of a vertebrate organism.&apos;</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Most size traits are lengths. Examples include total body length, snout-vent length, and femur length.</rdfs:comment>
         <rdfs:label xml:lang="en">vertebrate size trait</rdfs:label>
@@ -134,7 +149,22 @@
 
     <Class rdf:about="http://purl.obolibrary.org/obo/OVT_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OVT_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                        <someValuesFrom>
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+                            </Restriction>
+                        </someValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vertebrate scalar trait that is the mass of some part of a vertebrate organism.&apos;</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">May include total body mass or the mass of some part of the organism, dry or fresh.</rdfs:comment>
         <rdfs:label xml:lang="en">vertebrate mass trait</rdfs:label>
